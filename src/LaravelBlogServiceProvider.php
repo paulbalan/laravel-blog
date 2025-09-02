@@ -2,9 +2,9 @@
 
 namespace PaulBalan\LaravelBlog;
 
+use PaulBalan\LaravelBlog\Commands\LaravelBlogCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use PaulBalan\LaravelBlog\Commands\LaravelBlogCommand;
 
 class LaravelBlogServiceProvider extends PackageServiceProvider
 {
