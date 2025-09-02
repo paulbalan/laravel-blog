@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "paulbalan/laravel-blog",
+    "description": "This is my package laravel-blog",
     "keywords": [
-        ":vendor_name",
+        "PaulBalan",
         "laravel",
-        ":package_slug"
+        "laravel-blog"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/paulbalan/laravel-blog",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Paul Balan",
+            "email": "contact@paulbalan.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "PaulBalan\\LaravelBlog\\": "src/",
+            "PaulBalan\\LaravelBlog\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "PaulBalan\\LaravelBlog\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "PaulBalan\\LaravelBlog\\LaravelBlogServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelBlog": "PaulBalan\\LaravelBlog\\Facades\\LaravelBlog"
             }
         }
     },
